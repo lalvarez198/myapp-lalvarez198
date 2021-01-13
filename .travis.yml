@@ -1,0 +1,9 @@
+language: java
+deploy:
+  on:
+    branch: main
+  skip_cleanup: true
+  provider: heroku
+  app: myapp-lalvarez198
+  api_key:
+    secure: lxrP/IUU8kfg/zjMw92yrBb7E17MqpOQHuWHVtZ/1w4SIfZlaOl/w8stH4cpYozB+3dZKVZCKkQh7HzblcUVp525V9jDpJzZgpTVR8Sp7YW22odVyEkH3Hg2EJ4pmcP92VOIydAUxWiXgBmg3IrDrn5WHepQs1KgT0vVGK24FoVRylHmjievKKiO+RuhY9LMFSmy/Q12abZf6Nvw/rd2+x70035vFXY8UJj9xOYMqAGaFmVsfTilq4i4WU9qdROwHTrKRU/VhqHHXTUykHjOcvsxsYZCKVrxhenjRu0lYAEfNWTMWr4Gjdtovah6NEJdnkUWyIcy00zSrK2FKJw1VwWBrnlV7DiOnbgVElmla833oThxuYzFSOshb/Ypue/GnnL9yyc0z3f9nf0h9YV0cVBNSzaJkdjuXdM2q2LfVqTzujRZfZ0EsZ7SnY6dpDcTj8TnzkSXxP6hq/delT12U94QOToZ2W4cCwV51NKHH/n2EVukkrOIuRm/5eJSQguzks7qACFH7t8qt/EJl338TG0wdANbde05r+QjoAS33lkxn9MgT+2sxEDamN2Z5XBeNeCbUaH5APu2E2flJRR1BnD/9TlQY4HSjbCG4tzHKhfkOp8QRXhn4e9pxq/gdrydoCMl1i0XpiNxmQHNOd4kEMZPwgUEhDfkxsNlGv+0fP8=
